@@ -1,0 +1,7 @@
+brooklyn.catalog:
+    version: "v2"
+    itemType: entity
+    items:
+    - id: war.MySample
+      item:
+        type: war.MySample

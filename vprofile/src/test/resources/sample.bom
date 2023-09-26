@@ -1,0 +1,12 @@
+brooklyn.catalog:
+  id: war.MySampleInCatalog
+  version: "1.0"
+  itemType: template
+  description: My Sample
+  displayName: MySample
+  iconUrl: classpath:///sample-icon.png
+  libraries:
+  - file:///Path/to/archetype/sample/target/vprofile-v2.jar
+  item:
+    services:
+    - type: war.MySample
